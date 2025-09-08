@@ -9,5 +9,15 @@
         <net-file value="Test_Traffic.net.xml"/>
         <route-files value="Test_Traffic.rou.xml"/>
     </input>
+    <!-- Below are the modification i made ! -->
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+    <report>
+        <tripinfo-output value="tripinfo.xml"/>
+    </report>
+
 
 </sumoConfiguration>
+
